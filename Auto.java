@@ -6,10 +6,10 @@ public class Auto {
     public int przebieg;
 
     public void jedz(){
-        System.out.println("Jedz");
+        System.out.println("Jedz!");
     }
     public void hamuj(){
-        System.out.println("hamuj");
+        System.out.println("Hamuj!");
     }
 
     public void info(){
