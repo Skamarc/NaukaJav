@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StudentChecker {
     public static void main(String[] args) {
         Student Adam = new Student();
@@ -33,5 +35,11 @@ public class StudentChecker {
             students[i].przedstawSie();
             students[i].zalogujSie();
         }
+
+        String imie = "Kasia";
+        Scanner scan = new Scanner(System.in);
+
+        
+
     }
 }
