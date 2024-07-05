@@ -14,4 +14,7 @@ public class Student {
     public void podajEmail(){
         System.out.println("Moj email to: " + email);
     }
+    public void zalogujSie(){
+        System.out.println("Zalogowany to: "+ nick);
+    }
 }
