@@ -1,6 +1,6 @@
 public class Metody {
 
-    public void policzWynik(){
+    public int policzWynik(){
         System.out.println("Policze wynik: ");
         int result = 0;
         for (int i = 0; i < 100; i++){
@@ -9,5 +9,6 @@ public class Metody {
             System.out.println("Wynik drugi(po) to: " + result);
         }
         System.out.println("Wynik drugi(po) to: " + result);
+        return result;
     }
 }
