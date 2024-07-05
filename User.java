@@ -10,7 +10,7 @@ public class User {
 //        password = pass;
 
         public User(String username, String password){
-            System.out.println("Hello z konstruktora - wtf");
+            System.out.println("Hello z konstruktora");
             this.username = username;
             this.password = password;
 
