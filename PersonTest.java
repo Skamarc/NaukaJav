@@ -5,15 +5,15 @@ public class PersonTest {
 
         teacher.walk();
         teacher.eat();
-        teacher.sayHello();
-        teacher.teachMath();
+//        teacher.sayHello();
+//        teacher.teachMath();
 
         Footballer footballer = new Footballer("Mike", 25,"Hehe Club");
 
-        footballer.playFootball();
+//        footballer.playFootball();
         footballer.walk();
         footballer.eat();
-        footballer.SayFootball();
+//        footballer.SayFootball();
 
 
 

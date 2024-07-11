@@ -12,6 +12,10 @@ public class MathTeacher extends Person {
         System.out.println("i'm teching Math");
     }
 
+    public void walk(){
+        System.out.println("I walk super fast");
+    }
+
     public void sayHello(){
         System.out.println("Hello, my name is " + name);
         System.out.println("i'm " + age);
