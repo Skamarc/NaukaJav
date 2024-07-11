@@ -2,12 +2,22 @@ import java.util.Scanner;
 
 public class StudentChecker {
     public static void main(String[] args) {
+
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
+
         Student Adam = new Student();
         Adam.imie = "Adam";
         Adam.nazwisko = "Adamski";
         Adam.nrIndexu = 12345;
         Adam.email = "Adam@gmail.com";
         Adam.nick = " AdamkskiA";
+        Adam.uczelnia = "AGH";
+
+        Adam.infoUczelnia();
+
+        String uczelniaAdama = Adam.nazwaUczelni;
 
         Student Kasia = new Student();
         Kasia.imie = "Kasia";
@@ -34,12 +44,10 @@ public class StudentChecker {
             students[i].podajNrIndexu();
             students[i].przedstawSie();
             students[i].zalogujSie();
-        }
 
+        }
         String imie = "Kasia";
         Scanner scan = new Scanner(System.in);
-
-        
 
     }
 }
